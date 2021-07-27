@@ -10,6 +10,8 @@ Em notação matemática o Método de Newton pode ser escrito pela seguinte sequ
 
 <img src="https://latex.codecogs.com/svg.image?x_{n&plus;1}&space;=&space;x_n&space;-&space;\frac{f(x_n)}{f'(x_n)},&space;n&space;\in&space;\mathbb{N}" title="x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}, n \in \mathbb{N}" />
 
+(Caso não consiga ver a fórmula mude a aparência do github para o tema padrão/claro).
+
 ## Funcionamento
 O programa funciona de maneira bem simples. Ele é limitado no ponto de não poder receber a função desejada como uma entrada do usuário, ao invés disso é
 necessário trocar a função diretamente no código. O usuário então pode entrar com um valor inicial e o valor do erro. A primeira entrada é o ponto de partida,
