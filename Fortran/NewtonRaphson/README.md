@@ -7,6 +7,7 @@ o resultado encontrado  anteriormente para produzir resultados cada vez mais pre
 
 ## Notação Matemática
 Em notação matemática o Método de Newton pode ser escrito pela seguinte sequência recursiva.
+
 <img src="https://latex.codecogs.com/svg.image?x_{n&plus;1}&space;=&space;x_n&space;-&space;\frac{f(x_n)}{f'(x_n)},&space;n&space;\in&space;\mathbb{N}" title="x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}, n \in \mathbb{N}" />
 
 ## Funcionamento
