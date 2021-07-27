@@ -395,7 +395,25 @@ void get_data(node *stock) {
     // Tenta abrir o arquivo binário para leitura
     if((fp = fopen(FILENAME, "rb")) == NULL) {
         printf("ERRO: Impossivel abrir o arquivo.\n");
-        exit(EXIT_ERROR);
+       
+        // Caso não consiga abrir o arquivo pergunta se quer cria-lo
+        do {
+            char opt;
+            printf("Criar o arquivo %s? [s/n] ", FILENAME);
+            scanf(" %c", &opt);
+            switch(opt) {
+                case 's':
+                    fopen(FILENAME, "wb"); // Cria o arquivo
+                    getchar(); // Limpa o stdin do '\n' que o scanf não pega
+                    return;
+                case 'n':
+                    printf("Saindo...");
+                    exit(EXIT_ERROR);
+                default:
+                    printf("ERRO: Entrada invalida.\n");
+                    break;
+            }
+        } while(1);
     }
 
     while(fread(&item, sizeof(item), 1, fp)) {
