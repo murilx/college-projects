@@ -5,7 +5,7 @@ A ideia principal do trabalho era estudar os conceitos já abordados em sala de 
 um programa qualquer que utilizasse pelo menos uma dessas estruturas de dados. 
   
 ## Funcionamento
-O programa em si busca desenvolver um programa para gerenciamento de estoque de uma empresa ficticia e de maneira simples, uma vez que o ponto principal do projeto
+O projeto em si busca desenvolver um programa para gerenciamento de estoque de uma empresa ficticia e de maneira simples, uma vez que o ponto principal do projeto
 era a implementação de listas encadeadas. Outro ponto também abordado no código foi a integração de listas encadeadas com um sistema de arquivos.
   
 Basicamente, as informações sobre o estoque da empresa ficam armazenadas dentro de uma lista encadeada, permitindo uma manipulação mais fácil dos dados desse
