@@ -4,4 +4,4 @@ Repositório contendo alguns projetos realizados durante o curso de Ciências da
 
 ## Outro projetos
 Outros projetos que também foram feitos para a universidade porém achei melhor coloca-los em repositórios separados
-* [Sistema Bancário em C++](https://github.com/murilx/sistema-bancario-cpp)
+* [Sistema Bancário em C++](https://github.com/murilx/sistema-bancario)
